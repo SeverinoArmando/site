@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Monteserrat', sans-serif;
+}
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(107, 44, 143);
+   text-shadow: 1px 2px 3px black;
+}
+
+.titulo1{
+    text-align: center;  
+    color-adjust:initial;
+    font-size: 30pt;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 255, 0.61);
+    text-decoration: underline;
+}
+
+.imagem1{
+    box-shadow: 1px 2px 4px black;
+    
+}
+.borda1{
+
+    font-family:Arial, sans-serif;
+    border: 2px solid;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+    flex-wrap: wrap;
+}
+
+
+div#interface {
+   
+    width:1000px;
+    background-color: #ffffff;
+    margin: /*cima*/-20px /*direita*/auto /*baixo*/10px /*esquerda*/auto;
+    box-shadow: 0px 0px 10px rgba (0,0,0,1);
+    padding: 10px 10px 10px 10px
+}
+
+
+section#corpo {
+    display: block;
+    width: 520px;
+    padding-right: 15px;
+}
+
+body,h2 {
+    margin: 0;
+}
+
+h2,h3 {
+    font-weight: 600px;
+}
+
+.todo-doc{
+    background-color: rgba(122, 213, 255, 0.466);
+    padding: 1px;
+}
+
+.imagem1{
+    max-width: 100%;
+}
+
+.documento{
+    display: flex;
+}
+
+.img-prim{
+    border: lightseagreen 2px solid;
+    padding: 0.3px;   
+    margin-right: 5px;
+}
+.img-prim img {
+    width: 100%;
+    object-fit:inherit;
+}
+
